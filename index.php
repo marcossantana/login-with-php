@@ -47,7 +47,7 @@ if (isset($_POST['login'])) {
   $password=$_POST['senha'];
   $MM_fldUserAuthorization = "";
   $MM_redirectLoginSuccess = "inicio.php";
-  $MM_redirectLoginFailed = "index_erro.php";
+  $MM_redirectLoginFailed = "inicio.php";
   $MM_redirecttoReferrer = false;
   mysql_select_db($database_conn_casavelha, $conn_casavelha);
   
@@ -79,7 +79,7 @@ if (isset($_POST['login'])) {
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link = href="css/estilo.css" rel = "stylesheet" type="text/css" />
-<title>Bar Casa Velha & Romeu Gás - (75) 3234 - 1051</title>
+<title>Bar Casa Velha & Romeu GÃ¡s - (75) 3234 - 1051</title>
 <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css" />
 <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 
@@ -136,7 +136,7 @@ if (isset($_POST['login'])) {
 
 <div id="login" class="container">
 <form name="form1" method="POST" action="<?php echo $loginFormAction; ?>" class="form-signin">
-<h2 class="form-signin-heading">Faça seu login</h2>
+<h2 class="form-signin-heading">FaÃ§a seu login</h2>
   <input type="text" name="login" id="login" placeholder="Digite seu login" size="50">
   <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
  <button class="btn btn-success btn-medium btn-block" type="submit">Entrar</button></form>
